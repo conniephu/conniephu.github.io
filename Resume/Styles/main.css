@@ -1,0 +1,139 @@
+*{
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.paragraph {
+	font-size: 14px;
+	color: #000000;
+	font-family: 'raleway', sans-serif;
+	margin-top: 0px;
+	marin-bottom: 0px;
+}
+
+
+#page-div {
+	width: 600px;
+	height: 900px;
+	background: #ffffff;
+	padding: 20px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 20px;
+	border-color: #008080;
+}
+
+
+.div {
+	float: left;
+	width: 100%;
+}
+
+.title {
+	font-weight: bold;
+	color: #008080;
+}
+
+#picdiv {
+	display: block;
+	float: left;
+	width: 150px;
+	margin-right: 15px;
+}
+
+#header-div {
+	display: block;
+	float: left;
+	margin-top: 70px;
+
+}
+
+#skillsdiv {
+  float: left ;
+  width: 50% ;
+}
+
+#edudiv {
+  display: block;
+  float: right;
+  width: 50%;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  text-align: left;
+  background: #eeeeee;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+
+h1 {
+  text-align: left; 
+  font-family: 'Raleway', sans-serif;
+  color: #008080;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: bold;
+  margin-bottom: 0px;
+
+  }
+
+h2 {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	color: #008080;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+
+h3 {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	color: #008080;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+}
+
+h4 {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin-top: 7px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+}
+
+li {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+p {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+img {
+	margin-top: 20px;
+}
+
+ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
