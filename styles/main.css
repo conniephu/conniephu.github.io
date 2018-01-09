@@ -127,7 +127,7 @@ p, a {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 21px;
 }
 
@@ -546,13 +546,17 @@ p {
 
 }
 
+.contact {
+  height: 315px;
+  margin-top: 10px;
+}
+
 /* ABOUT MOBILE */
 
 .innercontainer {
   width: 100%;
   display: block;
-  float: left;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .abouttext {
@@ -569,10 +573,12 @@ aside {
   display: block;
 }
 
+
 .aboutpic {
   text-align: center;
   align-content: center;
-  padding-left: 40px;
+  padding: 30px;
+  
 }
 
 
