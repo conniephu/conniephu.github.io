@@ -77,6 +77,11 @@ header {
 	font-size: 12px;
 }
 
+.aboutpage h3 {
+  color: #008080;
+  font-weight: 800;
+}
+
 a:hover {
     background-color: #008080;
 }
