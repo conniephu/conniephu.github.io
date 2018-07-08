@@ -1,11 +1,11 @@
 * {
-	font-family: 'Raleway', sans-serif;
-	box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
 }
 
 header {
-	width: 100%;
-	height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 /*footer {
@@ -18,73 +18,65 @@ header {
 }*/
 
 .main {
-	margin-top: 20px;
+  margin-top: 20px;
 
 }
 
 .logo {
-	width: 350px;
-	float: left;
-	position: relative;
-	z-index: 5;
+  width: 350px;
+  float: left;
+  position: relative;
+  z-index: 5;
 }
 
 .bordertop {
-	margin-top: 100px;
-	position: absolute;
-	display: flex;
-	width: 100%;
-	z-index: 1;
+  margin-top: 100px;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  z-index: 1;
 }
 
 
 /*.nav {
-	width: 100%;
-	display: inline-block;
-	margin-left: 50px;
-	float: right;
+  width: 100%;
+  display: inline-block;
+  margin-left: 50px;
+  float: right;
 }*/
 
 .nav-one {
-	width: 120px;
-	height: 25px;
-	margin-top: 45px;
-	margin-bottom: 10px;
-	margin-right: 80px;
-	float: right;
-	display: inline-block;
-	text-align: right;
-	font-family: 'Raleway';
+  width: 120px;
+  height: 25px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  float: right;
+  display: inline-block;
+  text-align: right;
+  font-family: 'Raleway';
 }
 
 .nav-one h3 {
-	font-weight: 300;
-	font-size: 12px;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .nav-two {
-	width: 125px;
-	height: 25px;
-	float: right;
-	text-align: right;
-	margin-top: 45px;
-	margin-bottom: 10px;
-	margin-right: 10px;	
+  width: 125px;
+  height: 25px;
+  float: right;
+  text-align: right;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  margin-right: 10px; 
 }
 
 .nav-two h3 {
-	font-weight: 300;
-	font-size: 12px;
+  font-weight: 300;
+  font-size: 12px;
 }
 
-.aboutpage h3 {
-  color: #008080;
-  font-weight: 800;
-}
-
-a:hover {
-    background-color: #008080;
-}
 
 /*codepen*/
 
@@ -134,8 +126,8 @@ p, a {
   font-family: 'Raleway', sans-serif;
 }
 
-p {
-  font-size: 14px;
+p, li {
+  font-size: 15px;
   line-height: 21px;
 }
 
@@ -407,35 +399,37 @@ html.lb-disable-scrolling {
 }
 
 .innercontainer {
-  width: 90%;
+  width: 100%;
   display: block;
   margin-top: 20px;
   height: 410px;
 }
 
-.page-container h1 {
-	margin-top: 30px;
-	margin-left: 15px;
-	font-family: Raleway, sans-serif;
-	font-size: 24px;
+.page-container h1 {2
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
   line-height: 32px;
   color: #008080;
 }
 
 .page-container p {
-	margin-left: 15px;
+  margin-left: 15px;
 }
 
 .aboutpic {
-	
+  
 }
 
 .abouttext {
-  margin-left: 80px;
-  margin-right: 10px;
-  width: 60%;
+  margin-left: 25px;
+  margin-right: 30px;
+  width: 55%;
   float: left;
 }
+
+
 
 /*aside {
   width: 28%;
@@ -450,10 +444,6 @@ html.lb-disable-scrolling {
 }
 
 
-.abouttext {
-  width: 55%;
-  margin-left: 15px;
-}
 
 aside {
   width: 35%;
@@ -480,9 +470,8 @@ textarea {
 
 .contact {
   clear: both;
-  width: 90%;
-  display: block;
-  height: 290px;
+  width: 100%;
+  height: 300px;
   margin-left: 15px;
   padding: 20px;
   background-color: #008080;
@@ -554,21 +543,17 @@ p {
 
 }
 
-.contact {
-  height: 315px;
-  margin-top: 10px;
-}
-
 /* ABOUT MOBILE */
 
 .innercontainer {
   width: 100%;
   display: block;
-  margin-top: 30px;
+  float: left;
+  margin-top: 40px;
 }
 
 .abouttext {
-  display: block;
+  display: inline-block;
   float: left;
   padding-left: 0;
   padding-right: 40px;
@@ -576,18 +561,36 @@ p {
   text-align: center;
 }
 
+.about {
+  display: inline-block;
+  float: right;
+  padding-left: 0;
+  padding-right: 40px;
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+
+}
+
 aside {
   width: 100%;
   display: block;
 }
 
+aside h3 {
+  margin-left: 25px;
+}
+ul {
+  margin-left: 15px;
+}
 
 .aboutpic {
   text-align: center;
   align-content: center;
-  padding: 30px;
-  
+  padding-left: 45px;
 }
+
+
 
 
 }
